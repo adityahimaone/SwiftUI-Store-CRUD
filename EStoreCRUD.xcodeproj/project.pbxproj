@@ -7,18 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B139A1A2B90B9A000C72D15 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B139A192B90B9A000C72D15 /* Category.swift */; };
+		3B139A1D2B90BA6A00C72D15 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B139A1C2B90BA6A00C72D15 /* Product.swift */; };
+		3B139A1F2B90BDB200C72D15 /* ProductAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B139A1E2B90BDB200C72D15 /* ProductAPIService.swift */; };
+		3B139A212B90BF3700C72D15 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B139A202B90BF3600C72D15 /* NetworkService.swift */; };
+		3B139A252B90C1A700C72D15 /* ProductVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B139A242B90C1A700C72D15 /* ProductVM.swift */; };
+		3B139A282B90C2A500C72D15 /* ProductRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B139A272B90C2A500C72D15 /* ProductRowView.swift */; };
+		3B139A2A2B90C4E700C72D15 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B139A292B90C4E700C72D15 /* ProductListView.swift */; };
+		3B139A2C2B90C7F500C72D15 /* CreateProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B139A2B2B90C7F500C72D15 /* CreateProduct.swift */; };
+		3B139A2E2B90CB2900C72D15 /* AddProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B139A2D2B90CB2900C72D15 /* AddProduct.swift */; };
+		3B139A302B90CFC000C72D15 /* PhotoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B139A2F2B90CFC000C72D15 /* PhotoSource.swift */; };
+		3B139A322B90D10500C72D15 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B139A312B90D10500C72D15 /* ImagePicker.swift */; };
 		3B532BCA2B8E156300C53B15 /* EStoreCRUDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B532BC92B8E156300C53B15 /* EStoreCRUDApp.swift */; };
 		3B532BCC2B8E156300C53B15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B532BCB2B8E156300C53B15 /* ContentView.swift */; };
 		3B532BCE2B8E156600C53B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B532BCD2B8E156600C53B15 /* Assets.xcassets */; };
 		3B532BD12B8E156600C53B15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B532BD02B8E156600C53B15 /* Preview Assets.xcassets */; };
+		3B532BE02B8E181A00C53B15 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B532BDF2B8E181A00C53B15 /* User.swift */; };
+		3B532BE32B8E19B700C53B15 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B532BE22B8E19B700C53B15 /* Constant.swift */; };
+		3B532BE72B8E1B6A00C53B15 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B532BE62B8E1B6A00C53B15 /* AuthService.swift */; };
+		3B532BE92B8E1E8D00C53B15 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B532BE82B8E1E8D00C53B15 /* AuthViewModel.swift */; };
+		3B532BEB2B8E21A200C53B15 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B532BEA2B8E21A200C53B15 /* RegisterView.swift */; };
+		3B532BEE2B8E275E00C53B15 /* UserAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B532BED2B8E275E00C53B15 /* UserAPIService.swift */; };
+		3B532BF02B8E27EC00C53B15 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B532BEF2B8E27EC00C53B15 /* UsersViewModel.swift */; };
+		3B532BF22B8E294900C53B15 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B532BF12B8E294900C53B15 /* ErrorMessage.swift */; };
+		3B532BF52B8E2B1200C53B15 /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B532BF42B8E2B1200C53B15 /* UserRowView.swift */; };
+		3B532BF72B8E2C8700C53B15 /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B532BF62B8E2C8700C53B15 /* UsersListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B139A192B90B9A000C72D15 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		3B139A1C2B90BA6A00C72D15 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		3B139A1E2B90BDB200C72D15 /* ProductAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAPIService.swift; sourceTree = "<group>"; };
+		3B139A202B90BF3600C72D15 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		3B139A242B90C1A700C72D15 /* ProductVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVM.swift; sourceTree = "<group>"; };
+		3B139A272B90C2A500C72D15 /* ProductRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRowView.swift; sourceTree = "<group>"; };
+		3B139A292B90C4E700C72D15 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		3B139A2B2B90C7F500C72D15 /* CreateProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProduct.swift; sourceTree = "<group>"; };
+		3B139A2D2B90CB2900C72D15 /* AddProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProduct.swift; sourceTree = "<group>"; };
+		3B139A2F2B90CFC000C72D15 /* PhotoSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSource.swift; sourceTree = "<group>"; };
+		3B139A312B90D10500C72D15 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		3B532BC62B8E156300C53B15 /* EStoreCRUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EStoreCRUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B532BC92B8E156300C53B15 /* EStoreCRUDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EStoreCRUDApp.swift; sourceTree = "<group>"; };
 		3B532BCB2B8E156300C53B15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B532BCD2B8E156600C53B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B532BD02B8E156600C53B15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B532BDF2B8E181A00C53B15 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3B532BE22B8E19B700C53B15 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3B532BE62B8E1B6A00C53B15 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		3B532BE82B8E1E8D00C53B15 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		3B532BEA2B8E21A200C53B15 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		3B532BED2B8E275E00C53B15 /* UserAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIService.swift; sourceTree = "<group>"; };
+		3B532BEF2B8E27EC00C53B15 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		3B532BF12B8E294900C53B15 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		3B532BF42B8E2B1200C53B15 /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
+		3B532BF62B8E2C8700C53B15 /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +74,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B139A162B90B96800C72D15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B139A262B90C28B00C72D15 /* View */,
+				3B139A232B90C19C00C72D15 /* ViewModel */,
+				3B139A1B2B90BA6100C72D15 /* Model */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		3B139A172B90B97200C72D15 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3B139A182B90B99600C72D15 /* Model */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3B139A182B90B99600C72D15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B139A192B90B9A000C72D15 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B139A1B2B90BA6100C72D15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B139A1C2B90BA6A00C72D15 /* Product.swift */,
+				3B139A2B2B90C7F500C72D15 /* CreateProduct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B139A232B90C19C00C72D15 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B139A242B90C1A700C72D15 /* ProductVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3B139A262B90C28B00C72D15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B139A272B90C2A500C72D15 /* ProductRowView.swift */,
+				3B139A292B90C4E700C72D15 /* ProductListView.swift */,
+				3B139A2D2B90CB2900C72D15 /* AddProduct.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3B532BBD2B8E156300C53B15 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +146,12 @@
 		3B532BC82B8E156300C53B15 /* EStoreCRUD */ = {
 			isa = PBXGroup;
 			children = (
-				3B532BC92B8E156300C53B15 /* EStoreCRUDApp.swift */,
-				3B532BCB2B8E156300C53B15 /* ContentView.swift */,
-				3B532BCD2B8E156600C53B15 /* Assets.xcassets */,
+				3B532BE42B8E1B5600C53B15 /* Services */,
+				3B532BE12B8E19A600C53B15 /* Helper */,
+				3B532BDA2B8E17B400C53B15 /* Modules */,
+				3B532BD92B8E175100C53B15 /* Resources */,
+				3B532BD82B8E174A00C53B15 /* App */,
+				3B532BD72B8E174500C53B15 /* View */,
 				3B532BCF2B8E156600C53B15 /* Preview Content */,
 			);
 			path = EStoreCRUD;
@@ -65,6 +163,123 @@
 				3B532BD02B8E156600C53B15 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B532BD72B8E174500C53B15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B532BCB2B8E156300C53B15 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B532BD82B8E174A00C53B15 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3B532BC92B8E156300C53B15 /* EStoreCRUDApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3B532BD92B8E175100C53B15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B532BCD2B8E156600C53B15 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B532BDA2B8E17B400C53B15 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3B139A172B90B97200C72D15 /* Categories */,
+				3B139A162B90B96800C72D15 /* Products */,
+				3B532BDB2B8E17BC00C53B15 /* Users */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		3B532BDB2B8E17BC00C53B15 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				3B532BF32B8E2AFC00C53B15 /* SubView */,
+				3B532BDE2B8E17F200C53B15 /* View */,
+				3B532BDD2B8E17E600C53B15 /* ViewModel */,
+				3B532BDC2B8E17DE00C53B15 /* Model */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		3B532BDC2B8E17DE00C53B15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B532BDF2B8E181A00C53B15 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B532BDD2B8E17E600C53B15 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B532BE82B8E1E8D00C53B15 /* AuthViewModel.swift */,
+				3B532BEF2B8E27EC00C53B15 /* UsersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3B532BDE2B8E17F200C53B15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B532BEA2B8E21A200C53B15 /* RegisterView.swift */,
+				3B532BF62B8E2C8700C53B15 /* UsersListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B532BE12B8E19A600C53B15 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3B532BE22B8E19B700C53B15 /* Constant.swift */,
+				3B532BF12B8E294900C53B15 /* ErrorMessage.swift */,
+				3B139A202B90BF3600C72D15 /* NetworkService.swift */,
+				3B139A2F2B90CFC000C72D15 /* PhotoSource.swift */,
+				3B139A312B90D10500C72D15 /* ImagePicker.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3B532BE42B8E1B5600C53B15 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3B532BEC2B8E274B00C53B15 /* API */,
+				3B532BE52B8E1B5C00C53B15 /* Auth */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3B532BE52B8E1B5C00C53B15 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3B532BE62B8E1B6A00C53B15 /* AuthService.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		3B532BEC2B8E274B00C53B15 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3B532BED2B8E275E00C53B15 /* UserAPIService.swift */,
+				3B139A1E2B90BDB200C72D15 /* ProductAPIService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3B532BF32B8E2AFC00C53B15 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				3B532BF42B8E2B1200C53B15 /* UserRowView.swift */,
+			);
+			path = SubView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +354,27 @@
 			files = (
 				3B532BCC2B8E156300C53B15 /* ContentView.swift in Sources */,
 				3B532BCA2B8E156300C53B15 /* EStoreCRUDApp.swift in Sources */,
+				3B532BF22B8E294900C53B15 /* ErrorMessage.swift in Sources */,
+				3B532BF02B8E27EC00C53B15 /* UsersViewModel.swift in Sources */,
+				3B532BEE2B8E275E00C53B15 /* UserAPIService.swift in Sources */,
+				3B532BE92B8E1E8D00C53B15 /* AuthViewModel.swift in Sources */,
+				3B532BEB2B8E21A200C53B15 /* RegisterView.swift in Sources */,
+				3B139A302B90CFC000C72D15 /* PhotoSource.swift in Sources */,
+				3B532BF72B8E2C8700C53B15 /* UsersListView.swift in Sources */,
+				3B532BE72B8E1B6A00C53B15 /* AuthService.swift in Sources */,
+				3B139A1A2B90B9A000C72D15 /* Category.swift in Sources */,
+				3B139A212B90BF3700C72D15 /* NetworkService.swift in Sources */,
+				3B532BF52B8E2B1200C53B15 /* UserRowView.swift in Sources */,
+				3B139A322B90D10500C72D15 /* ImagePicker.swift in Sources */,
+				3B532BE02B8E181A00C53B15 /* User.swift in Sources */,
+				3B139A282B90C2A500C72D15 /* ProductRowView.swift in Sources */,
+				3B139A2A2B90C4E700C72D15 /* ProductListView.swift in Sources */,
+				3B139A252B90C1A700C72D15 /* ProductVM.swift in Sources */,
+				3B532BE32B8E19B700C53B15 /* Constant.swift in Sources */,
+				3B139A2E2B90CB2900C72D15 /* AddProduct.swift in Sources */,
+				3B139A1D2B90BA6A00C72D15 /* Product.swift in Sources */,
+				3B139A1F2B90BDB200C72D15 /* ProductAPIService.swift in Sources */,
+				3B139A2C2B90C7F500C72D15 /* CreateProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +511,8 @@
 				DEVELOPMENT_TEAM = 2LV65ZKNC2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "You need to grant the app access to your camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "You need to grant the app access to your photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +542,8 @@
 				DEVELOPMENT_TEAM = 2LV65ZKNC2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "You need to grant the app access to your camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "You need to grant the app access to your photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
